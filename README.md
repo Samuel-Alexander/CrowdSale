@@ -28,7 +28,7 @@ Pre-production test of Crowdsale conducted on the Kovan testnet.
 
 Using Remix, create a file called `NewCoin.sol` and create a standard `ERC20Mintable` token. 
 
-![Screen Shot 2021-06-12 at 12 35 41 PM](https://user-images.githubusercontent.com/75221323/121784656-c4045900-cb7a-11eb-801f-7ae7201116c6.png)
+![Screen Shot 2021-06-12 at 12 37 11 PM](https://user-images.githubusercontent.com/75221323/121784687-f4e48e00-cb7a-11eb-9470-1e813fef0156.png)
 
 
 Create a new contract named `NewCoinCrowdsale.sol`, and prepare it like a standard crowdsale.
