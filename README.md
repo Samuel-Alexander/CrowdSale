@@ -1,6 +1,3 @@
-![Screen Shot 2021-06-15 at 4 27 32 PM](https://user-images.githubusercontent.com/75221323/122125913-a6dbbe80-cdf6-11eb-817b-0c0b6e9a1bbb.png)
-# CrowdSale
-
 ![what-is-crowdsale-of-cryptocurrency](https://user-images.githubusercontent.com/75221323/121783379-d29b4200-cb73-11eb-882f-5b271456f3ed.jpg)
 
 
