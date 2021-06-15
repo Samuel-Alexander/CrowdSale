@@ -1,3 +1,4 @@
+![Screen Shot 2021-06-15 at 4 27 32 PM](https://user-images.githubusercontent.com/75221323/122125913-a6dbbe80-cdf6-11eb-817b-0c0b6e9a1bbb.png)
 # CrowdSale
 
 ![what-is-crowdsale-of-cryptocurrency](https://user-images.githubusercontent.com/75221323/121783379-d29b4200-cb73-11eb-882f-5b271456f3ed.jpg)
@@ -28,7 +29,8 @@ Pre-production test of Crowdsale conducted on the Kovan testnet.
 
 Using Remix, create a file called `NewCoin.sol` and create a standard `ERC20Mintable` token. 
 
-![Screen Shot 2021-06-12 at 12 37 11 PM](https://user-images.githubusercontent.com/75221323/121784687-f4e48e00-cb7a-11eb-9470-1e813fef0156.png)
+![Screen Shot 2021-06-15 at 4 27 32 PM](https://user-images.githubusercontent.com/75221323/122125980-b78c3480-cdf6-11eb-9fcb-5f48c01585af.png)
+
 
 
 Create a new contract named `NewCoinCrowdsale.sol`, and prepare it like a standard crowdsale.
