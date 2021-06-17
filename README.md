@@ -1,13 +1,15 @@
 ![what-is-crowdsale-of-cryptocurrency](https://user-images.githubusercontent.com/75221323/121783379-d29b4200-cb73-11eb-882f-5b271456f3ed.jpg)
 
 
-## Libraries and Dependencies
+<details open>
+<summary>## Libraries and Dependencies</summary>
+<br>
 * [Remix IDE](https://remix.ethereum.org)
 * [Ganache](https://www.trufflesuite.com/ganache)
 * [MetaMask](https://metamask.io/)
 * [OpenZeppelin Solidity Library](https://docs.openzeppelin.com/contracts/4.x/)
 * [Kovan Faucet](https://faucet.kovan.network/)
-
+</details>
 
 ## Summary
 This repo contains an executable solidity smart contract designed to facilitate the crowdsale of a unique token for purposes of funding a new network. This contract manages the entire crowdsale process, allowing users to send ETH and get back NEW (NewCoin). This contract mints tokens automatically and distributes them to buyers in one transaction.
