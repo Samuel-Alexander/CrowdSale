@@ -74,11 +74,12 @@ Create a new contract named `NewCoinCrowdsale.sol`, and prepare it like a standa
 
 <img width="205" alt="Screen Shot 2021-06-18 at 10 51 10 AM" src="https://user-images.githubusercontent.com/75221323/122587163-1e8e3100-d023-11eb-998a-eae1af080d07.png">
 
-8. Copy the token_sale_address from the PupperCoinSaleDeployer deployed contract and switch the contract to PupperCoinSale then paste the token_sale_address into the AT Address field and click At Address button.
+8. Copy the token_sale_address from the NewCoinSaleDeployer deployed contract and switch the contract to NewoinSale then paste the token_sale_address into the AT Address field and click At Address button.
 <img width="207" alt="Screen Shot 2021-06-18 at 10 56 34 AM" src="https://user-images.githubusercontent.com/75221323/122587799-e0ddd800-d023-11eb-95ef-a9ffee0034fe.png">
 
 
 All contracts should now be deployed:
+
 <img width="201" alt="Screen Shot 2021-06-18 at 10 57 24 AM" src="https://user-images.githubusercontent.com/75221323/122587872-fc48e300-d023-11eb-8d9a-b62908629972.png">
 
 
@@ -91,6 +92,7 @@ All contracts should now be deployed:
 
 
 A successful transaction will be recorded on the blockchain:
+
 <img width="994" alt="Screen Shot 2021-06-18 at 11 03 00 AM" src="https://user-images.githubusercontent.com/75221323/122588489-c9531f00-d024-11eb-9b15-ce0bca8d2c6b.png">
 
 
