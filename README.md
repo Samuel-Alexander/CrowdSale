@@ -29,19 +29,13 @@ Pre-production test of Crowdsale conducted on the Kovan testnet.
 
 Using Remix, create a file called `NewCoin.sol` and create a standard `ERC20Mintable` token. 
 
-<details open>
-<summary>Code Snippet</summary>
-<br>
 ![Screen Shot 2021-06-15 at 4 27 32 PM](https://user-images.githubusercontent.com/75221323/122125980-b78c3480-cdf6-11eb-9fcb-5f48c01585af.png)
-</details>
+
 
 Create a new contract named `NewCoinCrowdsale.sol`, and prepare it like a standard crowdsale.
 
-<details open>
-<summary>Code Snippet</summary>
-<br>
 ![Screen Shot 2021-06-17 at 5 44 16 PM](https://user-images.githubusercontent.com/75221323/122481125-c2300080-cf93-11eb-9679-892028a87818.png)
-</details>
+
 
 ### Comments on contract components
 
@@ -75,6 +69,7 @@ You will need to bootstrap the contract by inheriting the following OpenZeppelin
 
 ### Testing the Crowdsale
 
+ 
 Test the crowdsale by sending Ether to the crowdsale from a different account (**not** the same account that is raising funds), then once you confirm that the crowdsale works as expected, try to add the token to MyCrypto and test a transaction. You can test the time functionality by replacing `now` with `fakenow`, and creating a setter function to modify `fakenow` to whatever time you want to simulate. You can also set the `close` time to be `now + 5 minutes`, or whatever timeline you'd like to test for a shorter crowdsale.
 
 When sending Ether to the contract, make sure you hit your `goal` that you set, and `finalize` the sale using the `Crowdsale`'s `finalize` function. In order to finalize, `isOpen` must return false (`isOpen` comes from `TimedCrowdsale` which checks to see if the `close` time has passed yet). Since the `goal` is 300 Ether, you may need to send from multiple accounts. If you run out of prefunded accounts in Ganache, you can create a new workspace.
